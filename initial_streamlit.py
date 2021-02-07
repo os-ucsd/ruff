@@ -16,8 +16,8 @@ def main():
 	st.subheader("Upload Your Notes")
 	pdf_file = st.file_uploader("",type=['pdf'])
 	if st.button("Upload"):
-		if docx_file is not None:
-			file_details = {"Filename":pdf_file.name,"FileType":pdf_file.type,"FileSize":docx_file.size}
+		if pdf_file is not None:
+			file_details = {"Filename":pdf_file.name,"FileType":pdf_file.type,"FileSize":pdf_file.size}
 			st.write(file_details)
 
 	st.markdown("## Your Flashcards:")
