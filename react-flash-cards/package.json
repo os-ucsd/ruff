@@ -1,0 +1,24 @@
+{
+  "name": "react-flash-cards",
+  "version": "1.0.0",
+  "description": "A Pen created on CodePen.io. Original URL: [https://codepen.io/celiaxiao/pen/LYbdEqJ](https://codepen.io/celiaxiao/pen/LYbdEqJ).",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+    "start": "webpack-dev-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.2",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^5.2.0",
+    "webpack": "^5.24.3",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
