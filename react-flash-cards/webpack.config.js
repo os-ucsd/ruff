@@ -1,11 +1,12 @@
-var HTMLWebpackPlugin=require('html-webpack-plugin')
+var HTMLWebpackPlugin=require('html-webpack-plugin');
 var HTMLWebpackPluginConfig=NEW HTMLWebpackPlugin({
-  template:__dirname+'dist/index.html'
-  filename:'index.html'
+  template: __dirname + 'dist/index.html',
+  filename: 'index.html',
   inject: 'body'
 });
+
 module.exports = {
-  entry:__dirname + '/dist.script.js'
+  entry: __dirname + '/dist/script.js',
   module: {
     loaders:[
       {
@@ -14,7 +15,7 @@ module.exports = {
     ]
   },
   output:{
-    filename: 'transformed.js'
+    filename: 'transformed.js',
     path: __dirname + '/build'
   },
   plugins:[HTMLWebpackPluginConfig]
